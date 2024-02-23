@@ -106,11 +106,14 @@ header {
     align-items: center;
     justify-content: center;
     width: 100%;
+    padding-top: 80px;
 }
 
 #r-1 {
     display: flex;
     flex-direction: row;
+    padding-left: 180px;
+    width: 100%;
 }
 
 #r-1-container {
@@ -240,19 +243,24 @@ header {
 }
 
 #r-2 {
-    padding-right: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-right: 50px;
 }
 
 #features-grid {
-    width: 520px;
-    padding-top: 95px;
-    padding-left: 140px;
+    width: 70%;
+    vertical-align: middle;
+    padding-right: 50px;
+    padding-top: 20px;
 }
 
 hr {
-    width: 50%;
+    width: 60%;
     margin: auto;
-    margin-top: 40px;
+    margin-top: 140px;
 }
 
 #c-2 {
