@@ -1,24 +1,24 @@
 /* This is the font I found that looks the closest to the 
-images, this css will convert the whole page to this font */
+images, this css will convert the whole page to this font ~Adrian~ */
 * {
     font-family: 'Roboto Mono Bold', sans-serif;
 
 }
 
-/* used to create the white space */
+/* used to create the white space ~Adrian~ */
 .useful-info-container {
     padding-bottom: 50px;
     padding-top: 100px;
 }
 
-/* creates the border around the image and rounds the leftmost corners */
+/* creates the border around the image and rounds the leftmost corners ~Adrian~ */
 .useful-info-img {
 
     border: 1px solid black;
     border-radius: 15px 0px 0px 15px;
 }
 
-/* creates the rounded corners, border and sets the background color */
+/* creates the rounded corners, border and sets the background color ~Adrian~ */
 .useful-info-paragraph {
     background-color: rgb(7, 80, 248);
     color: #ffffff;
@@ -26,7 +26,7 @@ images, this css will convert the whole page to this font */
     border-radius: 0px 15px 15px 0px;
 }
 
-/* details of the big text */
+/* details of the big text ~Adrian~ */
 .useful-info-title {
     font-weight: bold;
     font-size: 2rem;
@@ -34,12 +34,12 @@ images, this css will convert the whole page to this font */
     color: #ffffff;
 }
 
-/* provides the spacing inside of the paragraph box */
+/* provides the spacing inside of the paragraph box ~Adrian~ */
 .useful-spacing {
     height: 15%;
 }
 
-/* in charge of the spacing, text color/size, and bottom padding */
+/* in charge of the spacing, text color/size, and bottom padding ~Adrian~ */
 .useful-info-text {
     font-size: 100%;
     font-weight: bold;
@@ -49,24 +49,24 @@ images, this css will convert the whole page to this font */
     padding-left: 75px;
 }
 
-/* controls the spacing of the separate paragraph containers*/
+/* controls the spacing of the separate paragraph containers ~Adrian~ */
 .separate-paragraph-container {
     padding-top: 150px;
 }
 
-/* controls size, and centering of the separate paragraphs*/
+/* controls size, and centering of the separate paragraphs ~Adrian~ */
 .separate-paragraph {
     font-size: x-large;
     font-weight: bold;
     text-align: center;
 }
 
-/* used to give that empty white space around the bottom blue box */
+/* used to give that empty white space around the bottom blue box ~Adrian~ */
 .get-paid-container {
     padding: 100px;
 }
 
-/* rounds the corners, separates the divs, and ensures the background is blue and not the text */
+/* rounds the corners, separates the divs, and ensures the background is blue and not the text ~Adrian~ */
 .get-paid-background {
     border-radius: 15px;
     display: grid;
@@ -75,23 +75,23 @@ images, this css will convert the whole page to this font */
 
 }
 
-/* colors behind the image to prevent blue overlap. */
+/* colors behind the image to prevent blue overlap. ~Adrian~ */
 .get-paid-img {
     background-color: #ffffff;
 }
 
-/* TO-DO controls the dimensions of the image */
+/* TO-DO controls the dimensions of the image ~Adrian~ */
 .get-paid-img2 {
     height: 90%;
     width: auto;
 }
 
-/* pseudo padding for the space in the bottom blue box */
+/* pseudo padding for the space in the bottom blue box ~Adrian~ */
 .spacer {
     height: 18%;
 }
 
-/* colors and make the text bigger */
+/* colors and make the text bigger ~Adrian~ */
 .get-paid-sooner {
     font-weight: bold;
     font-size: 2rem;
@@ -99,7 +99,7 @@ images, this css will convert the whole page to this font */
     color: #ffffff;
 }
 
-/* controls size, color, and centering of the last paragraph */
+/* controls size, color, and centering of the last paragraph ~Adrian~ */
 .paragraph4 {
     font-size: 100%;
     font-weight: bold;
@@ -110,7 +110,7 @@ images, this css will convert the whole page to this font */
 }
 
 /* Sets the spacing, background color and very wonky padding
-of the footer. */
+of the footer. ~Adrian~ */
 footer {
     text-align: center;
     background-color: rgb(7, 80, 248);
@@ -118,20 +118,20 @@ footer {
     padding-bottom: 125px;
 }
 
-/* CSS for the big footer text */
+/* CSS for the big footer text ~Adrian~ */
 .try-today {
     color: #ffffff;
     font-size: 3em;
 
 }
 
-/* For small footer text */
+/* For small footer text ~Adrian~ */
 .get-started {
     color: #ffffff;
     font-weight: 600;
 }
 
-/* container spacing for the buttons */
+/* container spacing for the buttons ~Adrian~ */
 .green-white-btn {
     display: flex;
     justify-content: center;
@@ -139,32 +139,32 @@ footer {
     padding-bottom: 20px;
 }
 
-/* This is for the spacing BETWEEN the buttons */
+/* This is for the spacing BETWEEN the buttons ~Adrian~ */
 .buttons {
     margin: 0 30px;
     text-align: center;
 }
 
 /* This performs the trickery of fixing the background color of the png
-I had to find and alter. It also controls the size of the icon. */
+I had to find and alter. It also controls the size of the icon. ~Adrian~ */
 .icon-size {
     background-color: #ffffff;
     height: 25px;
     width: auto;
 }
 
-/* changes the getting started button */
+/* changes the getting started button ~Adrian~ */
 .btn-primary {
     background-color: rgba(127, 209, 38, 255) !important;
 }
 
-/* changes the chat with us button background and text color */
+/* changes the chat with us button background and text color ~Adrian~ */
 .btn-secondary {
     color: rgb(7, 80, 248) !important;
     background-color: #ffffff !important;
 }
 
-/* The container for selling points at the bottom */
+/* The container for selling points at the bottom ~Adrian~ */
 .footer-info {
     align-items: center;
     display: flex;
@@ -172,12 +172,12 @@ I had to find and alter. It also controls the size of the icon. */
     align-items: center;
 }
 
-/* this controls the spacing between all the images to prevent squishing */
+/* this controls the spacing between all the images to prevent squishing ~Adrian~ */
 .spacing {
     margin: 0 8px;
 }
 
-/* this controls the size of the little ellipse spacers */
+/* this controls the size of the little ellipse spacers ~Adrian~ */
 .ellipse-size {
     width: auto;
     height: 7px;
