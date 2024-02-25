@@ -1,0 +1,45 @@
+/*CSS Document*/
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #1825e1;
+}
+.h-custom {
+height: calc(100% - 73px);
+}
+@media (max-width: 450px) 
+.h-custom {
+height: 100%;
+}
+   /* Additional CSS for positioning text */
+   .image-container {
+    position: relative;
+    text-align: center;
+  }
+
+  .text-over {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+  }
+     /* Additional CSS for positioning text */
+     .image-container {
+        position: relative;
+        text-align: center;
+      }
+  
+      .text-over {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 24px;
+        font-weight: bold;
+      }
