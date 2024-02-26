@@ -355,6 +355,23 @@ hr {
 
 /* Judah CSS Section */
 
+
 .back-color {
-    background-color: rgba(8, 80, 248, 255);
+    background-color: rgb(7,80,248);
+}
+/* BODY CSS */
+
+/* heading font sizes */
+#font-styles {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+/*Footer's CSS */
+
+.text-color {
+    color: rgba(255, 255, 255, 255);
+}
+#gs-btn {
+    background-color: rgba(127, 209, 38, 255);
 }
