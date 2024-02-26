@@ -2,7 +2,7 @@
 images, this css will convert the whole page to this font ~Adrian~ */
 * {
     font-family: 'Roboto Mono Bold', sans-serif;
-
+    margin: 0; padding: 0;
 }
 
 /* used to create the white space ~Adrian~ */
@@ -34,9 +34,10 @@ images, this css will convert the whole page to this font ~Adrian~ */
     color: #ffffff;
 }
 
-/* provides the spacing inside of the paragraph box ~Adrian~ */
-.useful-spacing {
-    height: 15%;
+/* Adds padding to image and overwrites the black border with white ~Adrian~ */
+.useful-info-img {
+    border: 1px solid white;
+    padding: 100px 0px 100px 0px;
 }
 
 /* in charge of the spacing, text color/size, and bottom padding ~Adrian~ */
@@ -63,27 +64,19 @@ images, this css will convert the whole page to this font ~Adrian~ */
 
 /* used to give that empty white space around the bottom blue box ~Adrian~ */
 .get-paid-container {
-    padding: 100px;
+    padding-bottom: 75px;
+    padding-top: 100px;
 }
 
 /* rounds the corners, separates the divs, and ensures the background is blue and not the text ~Adrian~ */
 .get-paid-background {
     border-radius: 15px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    background-color: rgb(7, 80, 248);
-
 }
+
 
 /* colors behind the image to prevent blue overlap. ~Adrian~ */
-.get-paid-img {
-    background-color: #ffffff;
-}
-
-/* TO-DO controls the dimensions of the image ~Adrian~ */
 .get-paid-img2 {
-    height: 90%;
-    width: auto;
+    padding: 50px 0px 50px 0px;
 }
 
 /* pseudo padding for the space in the bottom blue box ~Adrian~ */
@@ -107,6 +100,8 @@ images, this css will convert the whole page to this font ~Adrian~ */
     text-align: left;
     color: #ffffff;
     padding-left: 40px;
+    background-color: rgb(7, 80, 248);
+    border-radius: 0px 15px 15px 0px;
 }
 
 /* Sets the spacing, background color and very wonky padding
@@ -122,7 +117,6 @@ footer {
 .try-today {
     color: #ffffff;
     font-size: 3em;
-
 }
 
 /* For small footer text ~Adrian~ */
@@ -181,6 +175,11 @@ I had to find and alter. It also controls the size of the icon. ~Adrian~ */
 .ellipse-size {
     width: auto;
     height: 7px;
+}
+
+/* sets the background color to white for the spacing columns ~Adrian~ */
+.space-col {
+    background-color: white;
 }
 /* cali  */
 
