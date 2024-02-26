@@ -7,7 +7,7 @@ images, this css will convert the whole page to this font ~Adrian~ */
 
 /* used to create the white space ~Adrian~ */
 .useful-info-container {
-    padding-bottom: 50px;
+    padding-bottom: 150px;
     padding-top: 100px;
 }
 
@@ -51,7 +51,7 @@ images, this css will convert the whole page to this font ~Adrian~ */
 
 /* controls the padding space of the separate paragraph containers ~Adrian~ */
 .separate-paragraph-container {
-    padding-top: 150px;
+    padding-top: 50px;
 }
 
 /* controls size, and centering of the separate paragraphs ~Adrian~ */
