@@ -13,7 +13,6 @@ images, this css will convert the whole page to this font ~Adrian~ */
 
 /* creates the border around the image and rounds the leftmost corners ~Adrian~ */
 .useful-info-img {
-
     border: 1px solid black;
     border-radius: 15px 0px 0px 15px;
 }
@@ -34,9 +33,9 @@ images, this css will convert the whole page to this font ~Adrian~ */
     color: #ffffff;
 }
 
-/* Adds padding to image and overwrites the black border with white ~Adrian~ */
+/* Adds padding to image container and creates the black border ~Adrian~ */
 .useful-info-img {
-    border: 1px solid white;
+    border: 1px solid black;
     padding: 100px 0px 100px 0px;
 }
 
@@ -50,7 +49,7 @@ images, this css will convert the whole page to this font ~Adrian~ */
     padding-left: 75px;
 }
 
-/* controls the spacing of the separate paragraph containers ~Adrian~ */
+/* controls the padding space of the separate paragraph containers ~Adrian~ */
 .separate-paragraph-container {
     padding-top: 150px;
 }
@@ -68,20 +67,9 @@ images, this css will convert the whole page to this font ~Adrian~ */
     padding-top: 100px;
 }
 
-/* rounds the corners, separates the divs, and ensures the background is blue and not the text ~Adrian~ */
-.get-paid-background {
-    border-radius: 15px;
-}
-
-
-/* colors behind the image to prevent blue overlap. ~Adrian~ */
+/* sets the spacing for the top and bottom of the image ~Adrian~ */
 .get-paid-img2 {
     padding: 50px 0px 50px 0px;
-}
-
-/* pseudo padding for the space in the bottom blue box ~Adrian~ */
-.spacer {
-    height: 18%;
 }
 
 /* colors and make the text bigger ~Adrian~ */
