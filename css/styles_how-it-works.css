@@ -182,3 +182,105 @@ I had to find and alter. It also controls the size of the icon. */
     width: auto;
     height: 7px;
 }
+/* cali  */
+
+li, a {
+    font-weight: 500;
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10%
+}
+
+.doubletap {
+    cursor: pointer;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.btn-1 { 
+    margin-right: auto;
+    padding: 4px 15px;
+    border: thin .5px;
+    border-radius: 10px;
+    transition: all 0.3s ease 0s;
+    background-color: blue;
+    color: azure;
+}
+
+.btn-2 {
+    background-color:blue;
+    color: white;
+    padding: 4px 15px ;
+    border-radius: 20px ;
+    transition: all 0.3s ease 0s;
+}
+
+
+button:hover {
+    background-color: grey;
+}
+
+h2 {
+    border: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    font-size: 50px;
+    font-weight: bolder;
+    transition: all 0.3s ease 0s;
+}
+
+.mid-sec { 
+    font-size: 30px;
+    font-weight: 500;
+    transition: all 0.3s ease 0s;
+}
+
+.mid-sec2 {
+    color: rgb(167, 165, 165);
+    transition: all 0.3s ease 0s;
+}
+
+.row {
+    margin-top: 50px;
+    margin-left: 200px;
+    transition: all 0.3s ease 0s;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+#fg-1 {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: 100%;
+    padding-right: 50px;
+}
+
+#features-grid {
+    width: 70%;
+    vertical-align: middle;
+    padding-right: 50px;
+    padding-top: 20px;
+}
