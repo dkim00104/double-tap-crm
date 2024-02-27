@@ -329,21 +329,31 @@ hr {
     opacity: 0.7;
 }
 
-/* Judah CSS Section */
+/* Judah's CSS Section */
 
 
 .back-color {
     background-color: rgb(7,80,248);
 }
-/* BODY CSS */
+/* Body Section CSS */
 
-/* heading font sizes */
+/* Box_1 CSS */
+
+#payment_ease_text {
+    background-color: rgb(7, 80, 248);
+    color: #ffffff;
+    border-radius: 0px 15px 15px 0px;
+}
+
+
+
+/* title font sizes */
 #font-styles {
     font-size: 28px;
     font-weight: 700;
 }
 
-/*Footer's CSS */
+/*Footer Section CSS */
 
 .text-color {
     color: rgba(255, 255, 255, 255);
