@@ -1,24 +1,23 @@
 /* This is the font I found that looks the closest to the 
-images, this css will convert the whole page to this font */
+images, this css will convert the whole page to this font ~Adrian~ */
 * {
     font-family: 'Roboto Mono Bold', sans-serif;
-
+    margin: 0; padding: 0;
 }
 
-/* used to create the white space */
+/* used to create the white space ~Adrian~ */
 .useful-info-container {
-    padding-bottom: 50px;
+    padding-bottom: 150px;
     padding-top: 100px;
 }
 
-/* creates the border around the image and rounds the leftmost corners */
+/* creates the border around the image and rounds the leftmost corners ~Adrian~ */
 .useful-info-img {
-
     border: 1px solid black;
     border-radius: 15px 0px 0px 15px;
 }
 
-/* creates the rounded corners, border and sets the background color */
+/* creates the rounded corners, border and sets the background color ~Adrian~ */
 .useful-info-paragraph {
     background-color: rgb(7, 80, 248);
     color: #ffffff;
@@ -26,7 +25,7 @@ images, this css will convert the whole page to this font */
     border-radius: 0px 15px 15px 0px;
 }
 
-/* details of the big text */
+/* details of the big text ~Adrian~ */
 .useful-info-title {
     font-weight: bold;
     font-size: 2rem;
@@ -34,12 +33,13 @@ images, this css will convert the whole page to this font */
     color: #ffffff;
 }
 
-/* provides the spacing inside of the paragraph box */
-.useful-spacing {
-    height: 15%;
+/* Adds padding to image container and creates the black border ~Adrian~ */
+.useful-info-img {
+    border: 1px solid black;
+    padding: 100px 0px 100px 0px;
 }
 
-/* in charge of the spacing, text color/size, and bottom padding */
+/* in charge of the spacing, text color/size, and bottom padding ~Adrian~ */
 .useful-info-text {
     font-size: 100%;
     font-weight: bold;
@@ -49,49 +49,30 @@ images, this css will convert the whole page to this font */
     padding-left: 75px;
 }
 
-/* controls the spacing of the separate paragraph containers*/
+/* controls the padding space of the separate paragraph containers ~Adrian~ */
 .separate-paragraph-container {
-    padding-top: 150px;
+    padding-top: 50px;
 }
 
-/* controls size, and centering of the separate paragraphs*/
+/* controls size, and centering of the separate paragraphs ~Adrian~ */
 .separate-paragraph {
     font-size: x-large;
     font-weight: bold;
     text-align: center;
 }
 
-/* used to give that empty white space around the bottom blue box */
+/* used to give that empty white space around the bottom blue box ~Adrian~ */
 .get-paid-container {
-    padding: 100px;
+    padding-bottom: 75px;
+    padding-top: 100px;
 }
 
-/* rounds the corners, separates the divs, and ensures the background is blue and not the text */
-.get-paid-background {
-    border-radius: 15px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    background-color: rgb(7, 80, 248);
-
-}
-
-/* colors behind the image to prevent blue overlap. */
-.get-paid-img {
-    background-color: #ffffff;
-}
-
-/* TO-DO controls the dimensions of the image */
+/* sets the spacing for the top and bottom of the image ~Adrian~ */
 .get-paid-img2 {
-    height: 90%;
-    width: auto;
+    padding: 50px 0px 50px 0px;
 }
 
-/* pseudo padding for the space in the bottom blue box */
-.spacer {
-    height: 18%;
-}
-
-/* colors and make the text bigger */
+/* colors and make the text bigger ~Adrian~ */
 .get-paid-sooner {
     font-weight: bold;
     font-size: 2rem;
@@ -99,7 +80,7 @@ images, this css will convert the whole page to this font */
     color: #ffffff;
 }
 
-/* controls size, color, and centering of the last paragraph */
+/* controls size, color, and centering of the last paragraph ~Adrian~ */
 .paragraph4 {
     font-size: 100%;
     font-weight: bold;
@@ -107,10 +88,12 @@ images, this css will convert the whole page to this font */
     text-align: left;
     color: #ffffff;
     padding-left: 40px;
+    background-color: rgb(7, 80, 248);
+    border-radius: 0px 15px 15px 0px;
 }
 
 /* Sets the spacing, background color and very wonky padding
-of the footer. */
+of the footer. ~Adrian~ */
 footer {
     text-align: center;
     background-color: rgb(7, 80, 248);
@@ -118,20 +101,19 @@ footer {
     padding-bottom: 125px;
 }
 
-/* CSS for the big footer text */
+/* CSS for the big footer text ~Adrian~ */
 .try-today {
     color: #ffffff;
     font-size: 3em;
-
 }
 
-/* For small footer text */
+/* For small footer text ~Adrian~ */
 .get-started {
     color: #ffffff;
     font-weight: 600;
 }
 
-/* container spacing for the buttons */
+/* container spacing for the buttons ~Adrian~ */
 .green-white-btn {
     display: flex;
     justify-content: center;
@@ -139,32 +121,32 @@ footer {
     padding-bottom: 20px;
 }
 
-/* This is for the spacing BETWEEN the buttons */
+/* This is for the spacing BETWEEN the buttons ~Adrian~ */
 .buttons {
     margin: 0 30px;
     text-align: center;
 }
 
 /* This performs the trickery of fixing the background color of the png
-I had to find and alter. It also controls the size of the icon. */
+I had to find and alter. It also controls the size of the icon. ~Adrian~ */
 .icon-size {
     background-color: #ffffff;
     height: 25px;
     width: auto;
 }
 
-/* changes the getting started button */
+/* changes the getting started button ~Adrian~ */
 .btn-primary {
     background-color: rgba(127, 209, 38, 255) !important;
 }
 
-/* changes the chat with us button background and text color */
+/* changes the chat with us button background and text color ~Adrian~ */
 .btn-secondary {
     color: rgb(7, 80, 248) !important;
     background-color: #ffffff !important;
 }
 
-/* The container for selling points at the bottom */
+/* The container for selling points at the bottom ~Adrian~ */
 .footer-info {
     align-items: center;
     display: flex;
@@ -172,15 +154,20 @@ I had to find and alter. It also controls the size of the icon. */
     align-items: center;
 }
 
-/* this controls the spacing between all the images to prevent squishing */
+/* this controls the spacing between all the images to prevent squishing ~Adrian~ */
 .spacing {
     margin: 0 8px;
 }
 
-/* this controls the size of the little ellipse spacers */
+/* this controls the size of the little ellipse spacers ~Adrian~ */
 .ellipse-size {
     width: auto;
     height: 7px;
+}
+
+/* sets the background color to white for the spacing columns ~Adrian~ */
+.space-col {
+    background-color: white;
 }
 /* cali  */
 
@@ -193,9 +180,16 @@ li, a {
 
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    padding: 0px 10%
+    padding: 20px 10%;
+    flex-direction: row;
+    width: 100%;
+    height: 100px;
+    left: 0;
+    right: 0;
+    top: 0;
+  
 }
 
 .doubletap {
@@ -212,25 +206,26 @@ header {
 }
 
 .nav_links li a{
-    transition: all 0.3s ease 0s;
+    color: black;
+    text-decoration: none;
+    
 }
 
 .btn-1 { 
     margin-right: auto;
-    padding: 4px 15px;
+    padding: 5px 15px;
     border: thin .5px;
     border-radius: 10px;
-    transition: all 0.3s ease 0s;
-    background-color: blue;
-    color: azure;
+    border-color: blue;
+    background-color: white;
+    color: blue;
 }
 
 .btn-2 {
     background-color:blue;
     color: white;
-    padding: 4px 15px ;
-    border-radius: 20px ;
-    transition: all 0.3s ease 0s;
+    padding: 5px 15px ;
+    border-radius: 10px ;
 }
 
 
@@ -238,42 +233,140 @@ button:hover {
     background-color: grey;
 }
 
-h2 {
-    border: 0px;
-    margin-top: 0px;
-    margin-left: 0px;
-    font-size: 50px;
-    font-weight: bolder;
-    transition: all 0.3s ease 0s;
-}
-
-.mid-sec { 
-    font-size: 30px;
-    font-weight: 500;
-    transition: all 0.3s ease 0s;
-}
-
-.mid-sec2 {
-    color: rgb(167, 165, 165);
-    transition: all 0.3s ease 0s;
-}
-
-.row {
-    margin-top: 50px;
-    margin-left: 200px;
-    transition: all 0.3s ease 0s;
-}
-
-.container {
+#focus-area {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-top: 30px;
+}
+
+#area-1 {
+    display: flex;
+    flex-direction: row;
+    padding-left: 250px;
     width: 100%;
 }
 
-#fg-1 {
+#area-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#main-1 {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 80px;
+}
+
+#main-2 {
+    font-size: 33px;
+    font-weight: 500;
+    margin-top: 6px;
+}
+
+#main-3 {
+    font-size: 17.5px;
+    font-weight: 600;
+    color: rgb(180, 180, 180);
+    margin-top: 10px;
+    line-height: 25px;
+}
+
+#main-4 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+#sign-up-btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 28px;
+    padding-right: 10px;
+    margin-right: 20px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+#double-arrow {
+    font-weight: 100;
+    font-size: 20px;
+    padding-bottom: 4px;
+    padding-top: 1px;
+}
+
+#message-icon {
+    width: 30px;
+    padding-right: 5px;
+    filter: invert(27%) sepia(85%) saturate(7388%) hue-rotate(225deg) brightness(100%) contrast(95%);
+ 
+}
+
+#chat-btn {
+    display: flex;
+    flex-direction: row;
+    font-weight: 850;
+    color: blue;
+    align-items: center;
+    font-size: 20px;
+    padding: 10px 25px;
+    border: solid 2px blue;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+#main-5 {
+    font-size: 17.5px;
+    font-weight: 600;
+    color: rgb(138, 138, 138);
+    margin-top: 24px;
+}
+
+.bold {
+    color: rgb(114, 114, 114);
+    font-weight: 900;
+}
+
+#cursor-type {
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+#main-6 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 34px;
+}
+
+.terms {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.dot {
+    height: 11px;
+    width: 11px;
+    filter: invert(25%) sepia(85%) saturate(7388%) hue-rotate(225deg) brightness(100%) contrast(95%);
+}
+
+#area-2 {
     display: flex;
     align-items: center;
-    justify-content: right;
+    justify-content: center;
     width: 100%;
     padding-right: 50px;
 }
@@ -283,4 +376,11 @@ h2 {
     vertical-align: middle;
     padding-right: 50px;
     padding-top: 20px;
+}
+
+hr {
+    padding-top: 60px;
+    width: 70%;
+    margin: auto;
+    margin-top: 170px;
 }
